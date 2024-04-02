@@ -1,0 +1,60 @@
+/* импорт стороннего шрифта с сайта https://fonts.google.com/specimen/Roboto?query=roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+
+.b1{ background-color:black;
+    /* Цвет шрифта */
+    color:antiquewhite ;
+    /* размер шрифта */
+    font-size: 16px;
+    /* тип шрифта */
+    font-family: 'Roboto', sans-serif;
+    /* наклон шрифта */
+    font-style: inherit;
+}
+.b2{
+    background-color: bisque;
+    font-family:'Roboto';
+    font-size: 13px;}
+
+
+
+
+h2{color: plum;}
+/* Указание размера, скругления краёв и тени аватарки */
+.avatar {height:250px; border-radius: 50%; box-shadow: 4px 4px 40px pink;}
+
+
+
+
+/* Обращение с классу div - block1, элементу p (Параграфы) */
+.block1 p {
+   color:salmon;
+   /* Отступ между строками */
+   margin: 0;
+
+   /* подчёркивание текста - underline, зачёркивание  line-through*/
+   text-decoration: none;
+
+   /* толщина шрифта */
+   font-weight:bold;
+
+   /* Отступ между буквами */
+   /* letter-spacing: 1px; */
+
+   /* Отступ между словами */
+   /* word-spacing: 1px; */
+
+   /* Трансформирование текста, сделать весь заглавными буквами, обычными,
+   каждое слово с большой буквы и т.п. */
+   /* text-transform: capitalize; */
+
+
+}
+/* Обращение к заголовку 4-го уровня, в котором записанно имя */
+.block1 h4{
+    color: gold;
+}
+
+
+

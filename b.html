@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<link rel="stylesheet" href="styles.css">
+<script src="B/GetValue.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Обработка</title>
+</head>
+
+<body class="b2">
+
+
+    <div>
+        <form class="calcForm" action="">
+
+            <input type="number" id='quantityDollars' placeholder="Сумма покупки в $">
+            <br>
+            <input type="number" id='quantityCoins' placeholder="Количество монет">
+
+            <br>
+            <input type="number" id='tp1' placeholder="Точка Продажи 1">
+            <!-- <p id="answerTP1">ТПм 1</p>
+        <p id="answerTPd1">ТПд 1</p> -->
+            <br>
+
+            <input type="number" id='tp2' placeholder="Точка Продажи 2">
+            <!-- <p id="answerTP2">ТПм 2</p>
+        <p id="answerTPd2">ТПд 2</p> -->
+            <br>
+            <input type="number" id='tp3' placeholder="Точка Продажи 3">
+            <!-- <p id="answerTP1">ТПм 3</p>
+        <p id="answerTPd3">ТПд 3</p>
+        <p id=result1></p>-->
+            <br>
+
+            <!-- Параметр ввода, sumbit создаёт кнопку, value меняет в ней текст
+         <input type="submit" value="Подтвердить" onclick="getValue()"/> -->
+
+            <!-- onclick говорит что делать при нажатии, getValue() - функция написанная в js1,
+        return false необходим чтобы при нажатии она не перезагружала страницу
+        в функции написанны geteры которые забирают информацию из полей по id -->
+            <button onclick="getValue(); return false" ;>Расчёт</button>
+            <br>
+
+            <p>Нечётные через точку!</p>
+            <p id="1"></p>
+            <p id="2"></p>
+            <p id="3"></p>
+            <p id="4"></p>
+            <p id="5"></p>
+            <p id="6"></p>
+
+        </form>
+    </div>
+</body>
+
+</html>
